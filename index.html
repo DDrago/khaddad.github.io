@@ -11,18 +11,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	</head>
 	<body class="is-preload">
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="avatar"><img src="https://avatars.io/facebook/KarimElSayedHaddad/medium" alt="" /></span>
 							<h1>Karim Haddad</h1>
-							<p>Technical Artist</p>
+							<p>Technical Game Artist</p>
 						</header>
 						<!--
 						<hr />
@@ -63,9 +63,11 @@
 						-->
 						<footer>
 							<ul class="icons">
-								<li><a href="#" class="fab fa-linkedin">Linkedin</a></li>
-								<li><a href="#" class="fab fa-github">Github</a></li>
-								<li><a href="#" class="fab fa-facebook">Facebook</a></li>
+								<li><a href="https://www.linkedin.com/in/karimhaddad/" class="fa-linkedin">Linkedin</a></li>
+								<li><a href="https://behance.net/karimhaddad" class="fa-behance">Behance</a></li>
+								<li><a href="https://www.artstation.com/karimhaddad" class="fa-artstation">Artstation</a></li>
+								<li><a href="https://github.com/DDrago" class="fa-github">Github</a></li>
+								<li><a href="https://www.facebook.com/KarimElSayedHaddad" class="fa-facebook">Facebook</a></li>
 							</ul>
 						</footer>
 					</section>
@@ -73,12 +75,14 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
-							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Karim Haddad</li>
 						</ul>
 					</footer>
 
 			</div>
-
+			
+		<canvas class="bg" style="position: absolute; display: block; top: 0; left: 0; z-index: 0;"></canvas>
+		</div>
 		<!-- Scripts -->
 			<script>
 				if ('addEventListener' in window) {
@@ -86,6 +90,30 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
-
+			
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+			<script>
+				window.onload = function() {
+				Particles.init({
+				selector: '.bg',
+				color: '#c8c8c8',
+				maxParticles: 130,
+				connectParticles: true,
+				responsive: [
+					{
+					breakpoint: 768,
+					options: {
+						maxParticles: 80
+					}
+					}, {
+					breakpoint: 375,
+					options: {
+						maxParticles: 50
+					}
+					}
+				]
+				});
+			};
+			</script>
 	</body>
 </html>
