@@ -1,119 +1,131 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Karim Haddad</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <title>Karim Haddad Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="https://avatars.io/facebook/KarimElSayedHaddad/medium" alt="" /></span>
-							<h1>Karim Haddad</h1>
-							<p>Technical Game Artist</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field">
-									<input type="text" name="name" id="name" placeholder="Name" />
-								</div>
-								<div class="field">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-								<div class="field">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="field">
-									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-								</div>
-								<div class="field">
-									<label>But are you a robot?</label>
-									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-								</div>
-							</div>
-							<ul class="actions special">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/karimhaddad/" class="fa-linkedin">Linkedin</a></li>
-								<li><a href="https://behance.net/karimhaddad" class="fa-behance">Behance</a></li>
-								<li><a href="https://www.artstation.com/karimhaddad" class="fa-artstation">Artstation</a></li>
-								<li><a href="https://github.com/DDrago" class="fa-github">Github</a></li>
-								<li><a href="https://www.facebook.com/KarimElSayedHaddad" class="fa-facebook">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Karim Haddad</li>
-						</ul>
-					</footer>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  
 
-			</div>
-			
-		<canvas class="bg" style="position: absolute; display: block; top: 0; left: 0; z-index: 0;"></canvas>
-		</div>
-		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-			
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-			<script>
-				window.onload = function() {
-				Particles.init({
-				selector: '.bg',
-				color: '#c8c8c8',
-				maxParticles: 130,
-				connectParticles: true,
-				responsive: [
-					{
-					breakpoint: 768,
-					options: {
-						maxParticles: 80
-					}
-					}, {
-					breakpoint: 375,
-					options: {
-						maxParticles: 50
-					}
-					}
-				]
-				});
-			};
-			</script>
-	</body>
+  <style>
+        .portfolio img{
+            height: 15vh;
+        }
+        @media(max-width:780px){
+            .portfolio img{height: 30vh;}
+            }
+  </style>
+</head>
+<body class="bg-dark text-white" >
+    <div class="container ">
+        <div class="row" >
+            <div class="col-sm-4 p-3 h-100 sticky-top bg-dark ">
+                <div class="align-content-sm-start  text-center ">
+                            <h2><img src="https://lh5.googleusercontent.com/isZYUAMG1HK5Tf5qTykcWIvRCqdhMOY89Wduc3szKoql5RguvraQutMYuyDzJiyWvn_NlQ=w16383" alt="" style="width: 15%;" /> Karim Haddad</h2>
+                            <p>Technical Artist</p>
+                                <a href="#" class="btn btn-outline-secondary btn-sm" role="button"><i class="fab fa-artstation"></i></a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm" role="button"><i class="fab fa-behance"></i></a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm" role="button"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm" role="button"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-8 p-3 align-items-sm-end">
+                <h2>About</h2>
+                <p>Hey there! I'm Karim Haddad, a Technical Artist based in Cairo, Egypt. I've been into gaming since way back, starting with modding online games. Now, I'm a Freelance Technical Artist, working on cool projects like XR apps and simulations.</p>
+
+                <p>I love bringing creativity and skills to the table, whether it's crafting advanced shaders or optimizing game art. I've also been a Teaching Assistant and organized some awesome events.</p>
+                    
+                <p>If you need a Technical Artist with a passion for gaming and a knack for making things look cool, let's chat! Feel free to reach out, and let's create something amazing together.</p>
+                <h2>Experience</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem.</p>
+
+                <h2>Skills</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa asperiores. At.</p>
+                <h2>Projects</h2>
+                
+                <div class="owl-carousel owl-theme portfolio">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolio1"><img class="object-fit-cover border rounded" src="https://images.unsplash.com/photo-1476842384041-a57a4f124e2e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80" /></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolio2"><img class="object-fit-sm-cover border rounded" src="https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80" /></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolio3"><img class="object-fit-sm-cover border rounded" src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80" /></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#portfolio4"><img class="object-fit-sm-cover border rounded" src="https://images.unsplash.com/photo-1476842384041-a57a4f124e2e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80" /></a>
+                </div>
+                
+                <h2>Contact</h2>
+                <p>myEmail@email.com</p>
+                </div>
+            </div>
+        </div>
+        
+    <!-- The Modal -->
+    <div class="modal fade" id="portfolio1" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+        
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Portfolio Item Title</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <!-- Modal body -->
+                <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem.</p>
+                <figure class="figure">
+                    <img src="..." class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                  </figure>
+                </div>
+
+        
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <script>
+        $('.owl-carousel').owlCarousel({
+            
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
+            
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    loop:false,
+            
+                    autoHeight:true,
+                },
+                600:{
+                    items:2,
+                    nav:false,
+                    loop:true
+                },
+                1000:{
+                    items:4,
+                    nav:false,
+                    loop:true
+                }
+            }
+        })
+    </script>
+     
+</body>
 </html>
